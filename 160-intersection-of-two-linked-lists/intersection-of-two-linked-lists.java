@@ -4,6 +4,8 @@ public class Solution {
         if(headA == null || headB == null)
             return null;
 
+            
+
         ListNode p1 = headA;
         ListNode p2 = headB;
 
