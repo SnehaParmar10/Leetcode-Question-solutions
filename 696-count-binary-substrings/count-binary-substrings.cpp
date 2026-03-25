@@ -15,5 +15,6 @@ public:
         
         ans += min(prev, curr);
         return ans;
+        
     }
 };
