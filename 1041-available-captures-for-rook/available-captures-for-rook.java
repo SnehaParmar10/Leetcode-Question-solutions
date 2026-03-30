@@ -27,7 +27,6 @@ class Solution {
         for(int j = c - 1; j >= 0; j--){
             if(board[r][j] == 'B') break;
             if(board[r][j] == 'p'){
-            
                 count++;
                 break;
             }
