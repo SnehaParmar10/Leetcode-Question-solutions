@@ -5,6 +5,9 @@ class Solution {
     public TreeNode increasingBST(TreeNode root) {
         inorder(root);
         return head.right;
+
+
+        
     }
 
     private void inorder(TreeNode node) {
