@@ -15,8 +15,10 @@ class Solution {
             for (Node child : node.children) {
                 stack.push(child);
             }
+            
         }
         
         return res;
     }
+
 }
