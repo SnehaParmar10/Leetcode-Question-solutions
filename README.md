@@ -1,4 +1,4 @@
-LeetCode Solutions in Java
+#LeetCode Solutions in Java
 
 This repository contains my solutions to various LeetCode problems written in Java.
 
