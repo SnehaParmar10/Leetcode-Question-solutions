@@ -5,7 +5,9 @@ class Solution {
 
         for(String word : words){
             StringBuilder sb = new StringBuilder(word);
+            
             result.append(sb.reverse().toString()).append(" ");
+
         }
 
         return result.toString().trim();
