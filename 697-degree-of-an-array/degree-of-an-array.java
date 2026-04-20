@@ -1,6 +1,7 @@
 class Solution {
     
     public int findShortestSubArray(int[] nums) {
+        
         HashMap<Integer, Integer> count = new HashMap<>();
         HashMap<Integer, Integer> first = new HashMap<>();
         HashMap<Integer, Integer> last = new HashMap<>();
