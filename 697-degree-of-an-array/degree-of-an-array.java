@@ -6,15 +6,18 @@ class Solution {
         HashMap<Integer, Integer> last = new HashMap<>();
         
         for (int i = 0; i < nums.length; i++) {
+
             int num = nums[i];
             count.put(num, count.getOrDefault(num, 0) + 1);
             if (!first.containsKey(num)) first.put(num, i);
             last.put(num, i);
+
         }
         
         int degree = 0;
         for (int c : count.values()) {
             degree = Math.max(degree, c);
+            
         }
         
         int minLen = nums.length;
