@@ -16,8 +16,11 @@ class Solution {
                 int sum = j + map.get(list2[j]);
                 
                 if (sum < minSum) {
+
                     result.clear();
+
                     result.add(list2[j]);
+                    
                     minSum = sum;
                 } else if (sum == minSum) {
                     result.add(list2[j]);
