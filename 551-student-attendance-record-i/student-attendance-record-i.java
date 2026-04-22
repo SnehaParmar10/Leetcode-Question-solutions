@@ -8,7 +8,9 @@ class Solution {
                 aCount++;
                 if (aCount >= 2) return false;
                 lCount = 0;
-            } else if (c == 'L') {
+            }
+            
+             else if (c == 'L') {
                 lCount++;
                 if (lCount >= 3) return false;
             } else {
