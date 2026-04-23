@@ -6,10 +6,12 @@ class Solution {
             int temp = arr[i];
             arr[i] = max;
             if(temp > max) {
+                
                 max = temp;
             }
         }
         
         return arr;
+        
     }
 }
