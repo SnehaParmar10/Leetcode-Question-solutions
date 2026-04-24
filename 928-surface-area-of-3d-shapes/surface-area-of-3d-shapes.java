@@ -8,6 +8,7 @@ class Solution {
                 int h = grid[i][j];
 
                 if (h > 0) {
+                    
                     area += 4 * h + 2;
 
                     if (i > 0) {
@@ -15,7 +16,9 @@ class Solution {
                     }
 
                     if (j > 0) {
+
                         area -= 2 * Math.min(h, grid[i][j - 1]);
+
                     }
                 }
             }
