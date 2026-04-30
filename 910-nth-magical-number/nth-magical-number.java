@@ -1,5 +1,7 @@
 class Solution {
+
     public int nthMagicalNumber(int n, int a, int b) {
+        
         long mod = 1000000007;
         long lcm = (long)a * b / gcd(a, b);
         
