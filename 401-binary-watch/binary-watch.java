@@ -1,5 +1,7 @@
 class Solution {
+
     public List<String> readBinaryWatch(int turnedOn) {
+        
         List<String> res = new ArrayList<>();
         
         for (int h = 0; h < 12; h++) {
@@ -9,6 +11,7 @@ class Solution {
                     if (m < 10) time += "0";
                     time += m;
                     res.add(time);
+
                 }
             }
         }
