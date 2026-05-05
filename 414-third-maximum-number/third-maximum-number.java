@@ -1,5 +1,7 @@
 class Solution {
+
     public int thirdMax(int[] nums) {
+
         Long first = null, second = null, third = null;
 
         for (int num : nums) {
@@ -22,7 +24,8 @@ class Solution {
                 third = n;
             }
         }
-
         return third == null ? first.intValue() : third.intValue();
+
     }
+
 }
