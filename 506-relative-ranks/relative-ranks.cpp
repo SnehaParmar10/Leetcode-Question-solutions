@@ -1,6 +1,8 @@
 class Solution {
+
 public:
     vector<string> findRelativeRanks(vector<int>& score) {
+
         int n = score.size();
         vector<string> ans(n);
 
@@ -28,7 +30,6 @@ public:
                 ans[idx] = to_string(i + 1);
             }
         }
-
         return ans;
     }
 };
