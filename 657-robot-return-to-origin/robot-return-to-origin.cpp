@@ -1,4 +1,5 @@
 class Solution {
+
 public:
     bool judgeCircle(string moves) {
         int x = 0, y = 0;
@@ -12,4 +13,5 @@ public:
 
         return x == 0 && y == 0;
     }
+    
 };
