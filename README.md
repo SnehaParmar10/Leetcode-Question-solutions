@@ -32,7 +32,7 @@ Trees & Graphs
 
 🛠 Language Used
 
-Java
+Java and C++
 
 🎯 Goal
 
