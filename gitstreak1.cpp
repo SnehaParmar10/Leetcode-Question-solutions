@@ -24,7 +24,7 @@ public:
                        (s1[i - 1] == s3[i - 1]);
         }
 
-        // First row
+        // First row and the last row of this code
         for (int j = 1; j <= m; j++) {
             dp[0][j] = dp[0][j - 1] &&
                        (s2[j - 1] == s3[j - 1]);
