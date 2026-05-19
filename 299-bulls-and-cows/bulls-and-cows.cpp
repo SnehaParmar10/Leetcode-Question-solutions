@@ -1,8 +1,11 @@
 class Solution {
 
-    
+
 public:
+
+
     string getHint(string secret, string guess) {
+        
         int bulls = 0, cows = 0;
         vector<int> s(10, 0), g(10, 0);
 
