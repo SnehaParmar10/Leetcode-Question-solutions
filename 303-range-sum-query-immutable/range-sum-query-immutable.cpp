@@ -1,5 +1,7 @@
 class NumArray {
+
 public:
+
     vector<int> prefix;
 
     NumArray(vector<int>& nums) {
