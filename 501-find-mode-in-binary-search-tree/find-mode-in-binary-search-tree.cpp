@@ -1,9 +1,11 @@
 class Solution {
 public:
+
     unordered_map<int,int> mp;
 
     void solve(TreeNode* root)
     {
+        
         if(root == NULL)
         {
             return;
@@ -18,9 +20,7 @@ public:
     vector<int> findMode(TreeNode* root) {
         
         solve(root);
-
         int maxi = 0;
-
         for(auto it : mp)
         {
             maxi = max(maxi, it.second);
@@ -35,7 +35,6 @@ public:
                 ans.push_back(it.first);
             }
         }
-
         return ans;
     }
 };
