@@ -1,4 +1,4 @@
-1.#LeetCode Solutions in Java and C++ 
+1.#LeetCode Solutions in Java and C++ ...
 
 This repository contains my solutions to various LeetCode problems written in Java and C++
 
