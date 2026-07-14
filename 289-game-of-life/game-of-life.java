@@ -1,5 +1,6 @@
 class Solution {
     public void gameOfLife(int[][] board) {
+        
         int m = board.length;
         int n = board[0].length;
         int[] dr = {-1,-1,-1,0,0,1,1,1};
@@ -24,6 +25,7 @@ class Solution {
                 }
             }
         }
+
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
                 if (board[i][j] == -1)
