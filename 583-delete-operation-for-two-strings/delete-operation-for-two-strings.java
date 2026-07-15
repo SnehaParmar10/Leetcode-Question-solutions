@@ -17,7 +17,6 @@ class Solution {
             return dp[i][j] = solve(i + 1, j + 1, s1, s2);
         int deleteFromS1 = 1 + solve(i + 1, j, s1, s2);
         int deleteFromS2 = 1 + solve(i, j + 1, s1, s2);
-
         return dp[i][j] = Math.min(deleteFromS1, deleteFromS2);
     }
 }
