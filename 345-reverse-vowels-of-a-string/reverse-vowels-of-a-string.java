@@ -6,6 +6,7 @@ class Solution {
         while (left < right) {
             while (left < right && !isVowel(arr[left])) {
                 left++;
+                
             }
             while (left < right && !isVowel(arr[right])) {
                 right--;
