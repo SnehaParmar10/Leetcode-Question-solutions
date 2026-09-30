@@ -1,16 +1,11 @@
 public class Solution extends GuessGame {
     public int guessNumber(int n) {
-
         int low = 1;
         int high = n;
-
         while (low <= high) {
-
             // Avoid integer overflow
             int mid = low + (high - low) / 2;
-
             int result = guess(mid);
-
             if (result == 0) {
                 return mid;
             }
@@ -23,7 +18,6 @@ public class Solution extends GuessGame {
                 low = mid + 1;
             }
         }
-
         return -1;
     }
 }
